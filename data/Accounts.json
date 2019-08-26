@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Bacon Revolution",
+            "AccountNumber": "ACCT-189264"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "Lettuce Eat Meat",
+            "AccountNumber": "ACCT-387456"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "Pizza King",
+            "AccountNumber": "ACCT-146298"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Name": "Sandwich Haven",
+            "AccountNumber": "ACCT-968346"
+        }
+    ]
+}
