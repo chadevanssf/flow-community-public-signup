@@ -1,3 +1,0 @@
-SELECT Id, Name, AccountNumber
-FROM Account
-ORDER BY Name
