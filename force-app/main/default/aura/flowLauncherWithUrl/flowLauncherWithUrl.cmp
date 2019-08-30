@@ -2,6 +2,7 @@
     <aura:attribute name="acceptedUrlParams" type="String" access="public" />
     <aura:attribute name="title" type="String" default="Newsletters" access="public" />
     <aura:attribute name="flowName" type="String" access="public" />
+    <aura:attribute name="includeCurrentUrl" type="Boolean" access="public" />
 
     <aura:attribute name="urlParams" type="String[]" access="private" />
     

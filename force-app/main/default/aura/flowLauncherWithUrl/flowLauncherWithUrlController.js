@@ -5,7 +5,7 @@
         var urlParams = [];
 		var query = location.search.substr(1);
         var result = {};
-        
+                
         //console.log("Looking for a key to add:");
         //console.log(acceptedParamsComma);
         var acptParams = acceptedParamsComma.split(",");
@@ -22,6 +22,18 @@
 				urlParams.push(i);
             }
         });
+        
+        var includeCurrUrl = component.get("v.includeCurrentUrl");
+        if (includeCurrUrl) {
+            var currenturl = location.href.replace(location.search, "");
+            var i = {
+                "name": "currenturl",
+                "type": "String",
+                "value": currenturl
+            };
+            urlParams.push(i);
+        }
+        
         component.set("v.urlParams", urlParams);
         
         // Find the component whose aura:id is "flowId"

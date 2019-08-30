@@ -19,6 +19,7 @@ Want to have users sign up, without having to log in or register? This is a simp
     ```sh
     sfdx force:user:permset:assign -u signuporg -n SignUp
     ```
+1. Update Community Guest Profile to have read access to Newsletter__c, and read/update to Signup__c, Newsletter_Subscription__c
 1. Set Default Data
     ```sh
     sfdx force:data:tree:import -u signuporg -p ./data/Data-plan.json

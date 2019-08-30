@@ -18,9 +18,10 @@
     "components" : [ {
       "componentName" : "c:flowLauncherWithUrl",
       "componentAttributes" : {
-        "acceptedUrlParams" : "uniquekey",
+        "acceptedUrlParams" : "uniquekey,currenturl",
         "title" : "Newsletters",
-        "flowName" : "Newsletter_Signup"
+        "flowName" : "Newsletter_Signup",
+        "includeCurrentUrl" : "true"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

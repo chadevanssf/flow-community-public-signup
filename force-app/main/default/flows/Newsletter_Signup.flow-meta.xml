@@ -246,6 +246,11 @@
         <sortOrder>Asc</sortOrder>
         <valueField>Id</valueField>
     </dynamicChoiceSets>
+    <formulas>
+        <name>redirecturl</name>
+        <dataType>String</dataType>
+        <expression>{!currenturl} &amp; &quot;?uniquekey=&quot; &amp; {!guid}</expression>
+    </formulas>
     <interviewLabel>Newsletter Signup {!$Flow.CurrentDateTime}</interviewLabel>
     <isTemplate>true</isTemplate>
     <label>Newsletter Signup</label>
@@ -407,7 +412,7 @@
         </connector>
         <fields>
             <name>Display_Confirm_Message</name>
-            <fieldText>&lt;p&gt;Congratulations!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;You have subscribed.&lt;/p&gt;</fieldText>
+            <fieldText>&lt;p&gt;Congratulations!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;You have subscribed. Click next to see your subscriptions, and your unique url to return to manage your subscriptions is:&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;{!redirecturl}&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
@@ -494,6 +499,13 @@
     </screens>
     <startElementReference>Decision_Unique_Key_Available</startElementReference>
     <status>Active</status>
+    <variables>
+        <name>currenturl</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
     <variables>
         <name>guid</name>
         <dataType>String</dataType>
