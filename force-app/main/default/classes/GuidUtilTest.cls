@@ -1,5 +1,5 @@
 @IsTest
-public class GuidUtilSpec
+public class GuidUtilTest
 {
     @isTest
     private static void GuidIsV4()

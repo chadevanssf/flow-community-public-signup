@@ -29,3 +29,7 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# source converstion to exclude
+force-mdapi/
+force-mdapi.zip
