@@ -1,0 +1,57 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "global-search",
+  "appPageId" : "c183b97d-e6db-4340-a8cf-9f554a0c08e1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Search",
+  "id" : "90580025-f207-4c6f-8cd0-b111f1ec6ba1",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "fee30358-efe6-429b-bb2a-9488d8960bf7",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "37d5ca26-79ba-44f7-bd7b-28826fa46f6e",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:search",
+      "componentAttributes" : {
+        "showTopResults" : "true",
+        "topicId" : "{!topicId}",
+        "term" : "{!searchString}",
+        "searchTerm" : "{!searchString}",
+        "scopes" : "[{\"name\":\"FeedPost\",\"isPublic\":true},{\"name\":\"KnowledgeArticleVersion\",\"isPublic\":true},{\"name\":\"Case\",\"isPublic\":false}, {\"name\":\"CollaborationGroup\",\"isPublic\":true}]",
+        "searchResultFiltering" : "true"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "59368c27-2bc5-45c1-a3df-660792d86d0a",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "b6ad96a3-567d-4b53-b681-b7fdf79f3b2d",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "a6324627-bf0f-4842-b15a-5a079a96e3b2",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "75b1179a-3c0b-41e4-abdd-03e1de210686",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

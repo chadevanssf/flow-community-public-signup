@@ -1,0 +1,28 @@
+{
+  "values" : {
+    "TextTransformStyle" : "none",
+    "DetailTextColor" : "rgba(0, 0, 0, 0.6)",
+    "BorderColor" : "#D4D4D4",
+    "_OverlayTextColorShadow" : "#000000",
+    "HeaderFonts" : "Montserrat",
+    "CardBackgroundColor" : "rgba(255, 255, 255, 0)",
+    "LoginBackgroundColor" : "#F4F4F4",
+    "ActionColor" : "#088756",
+    "_ActionColorTrans" : "rgba(8, 135, 86, 0.9)",
+    "CompanyLogo" : "/file-asset/communitylogo?v=1&height=300&width=300",
+    "LoginBackgroundImage" : "../../../../sfsites/picasso/core/external/salesforceIdentity/images/background.jpg?v=1",
+    "PageBackgroundColor" : "#FFFFFF",
+    "_LinkColorDarker" : "#004989",
+    "_ActionColorDarker" : "#055737",
+    "_HoverColor" : "rgba(8, 135, 86, 0.05)",
+    "ErrorFontColor" : "#ff9e9e",
+    "TextColor" : "rgba(0, 0, 0, 0.8)",
+    "OverlayTextColor" : "#FFFFFF",
+    "PrimaryFont" : "Lato",
+    "LinkColor" : "#005FB2"
+  },
+  "definitionName" : "webster:branding-webster",
+  "label" : "Webster",
+  "id" : "028efbe2-2b4e-4500-97ff-4d5870806d9d",
+  "type" : "brandingSet"
+}

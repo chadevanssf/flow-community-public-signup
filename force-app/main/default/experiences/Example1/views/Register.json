@@ -1,0 +1,90 @@
+{
+  "themeLayoutType" : "Login",
+  "viewType" : "self-register",
+  "appPageId" : "19e3e63c-2640-4dfb-b173-c69e9792ba73",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Register",
+  "id" : "f4f665d8-ea12-4bc9-973c-2e2ac90c1992",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "content",
+    "id" : "b9cb120c-d65b-4a67-bafa-01e93ed691df",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "salesforceIdentity:communityLogo2",
+      "componentAttributes" : { },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "e15a7319-d88a-47e0-8fab-88fc00bee742",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
+      "componentName" : "forceCommunity:richTextInline",
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align: center;\">Join the community to receive personalized information and customer support.</div>"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "7f6c2b39-30dd-4859-9a09-51facb0f5be1",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
+      "componentName" : "salesforceIdentity:selfRegister2",
+      "componentAttributes" : {
+        "startUrl" : "",
+        "lastnameLabel" : "Last Name",
+        "submitButtonLabel" : "Sign Up",
+        "includePasswordField" : "false",
+        "confirmPasswordLabel" : "Confirm Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "extraFieldsFieldSet" : "",
+        "firstnameLabel" : "First Name",
+        "emailLabel" : "Email",
+        "passwordLabel" : "Create Password"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "844e4def-d4f8-4fce-abc2-0cb26316cca8",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
+      "componentName" : "salesforceIdentity:socialLogin2",
+      "componentAttributes" : {
+        "headerText" : "",
+        "showHeader" : "false"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "9c233aae-c181-4dd4-a8f6-699ad3bf1bbe",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
+      "componentName" : "forceCommunity:richTextInline",
+      "componentAttributes" : {
+        "richTextValue" : "<div style=\"text-align: center;\"><a href=\"./\">Already have an account?</a></div>"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "03280112-2222-4ae8-837f-5fabb30a0e69",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "78e3f6fd-f12b-4f5d-9f79-d8b2bef07d84",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "5afe15f0-30a2-432d-b129-e83e924fc78e",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "custom-newsletters",
+  "appPageId" : "c183b97d-e6db-4340-a8cf-9f554a0c08e1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Newsletters",
+  "id" : "b38849ec-d377-4a9b-a3ef-6b9214056295",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "97644661-dade-4363-adfe-f5a264eb0e67",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "cef1bf5c-75b3-4233-8692-0a5a5d0c72fc",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "c:flowLauncherWithUrl",
+      "componentAttributes" : {
+        "acceptedUrlParams" : "uniquekey",
+        "title" : "Newsletters",
+        "flowName" : "Newsletter_Signup"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "e7a3b292-adc3-4024-a455-901aefc0baec",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "060f33ea-46bd-4fdd-961d-ee1c86526a29",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:richTextInline",
+      "componentAttributes" : {
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" src=\"{!contentAsset.Astro_and_Friends_Hiking.1}\" /></p>"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "fe732efc-6af8-43f1-8208-d7618330197a",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "8f01cfee-1c05-4eec-9bb7-4d90a2ae8959",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "Newsletters"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "597c572f-5348-4dfd-9d42-d429874aff98",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

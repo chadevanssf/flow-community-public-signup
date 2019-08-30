@@ -1,0 +1,7 @@
+<design:component label="Newsletter Subscriptions DataTable">
+    <design:attribute name="mydata" label="Collection - Newsletter Subscriptions"/>
+    <design:attribute name="preSelection" label="Input Selected Newsletter Subscriptions"/>
+    <design:attribute name="selectedRows" label="Output Selected Newsletter Subscriptions"/>
+    <design:attribute name="refreshDataTable" label="Refresh Data Table" description="This will be set to true when the data table wants to be refreshed" />
+    <design:attribute name="refreshId" label="Refresh Id" description="When needing a refresh, this is the record id to update" />
+</design:component>

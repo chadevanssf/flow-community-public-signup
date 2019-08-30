@@ -1,9 +1,14 @@
 {
-  "orgName": "chad.evans Company",
+  "orgName": "Signup Company",
   "edition": "Developer",
-  "features": [],
+  "features": [
+    "Communities",
+    "SiteDotCom",
+    "Sites"
+  ],
   "settings": {
     "orgPreferenceSettings": {
+      "networksEnabled": true,
       "s1DesktopEnabled": true
     }
   }

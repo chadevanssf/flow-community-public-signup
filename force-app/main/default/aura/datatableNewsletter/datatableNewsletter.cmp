@@ -1,0 +1,41 @@
+<!--
+    Wrapper around datatableFSC - Lightning Flow Screen Component
+	https://github.com/alexed1/LightningFlowComponents/tree/master/flow_screen_components/datatableFSC
+-->
+
+<aura:component implements="lightning:availableForFlowScreens">
+    
+    <aura:attribute name="obj" type="String" />
+    <aura:attribute name="mydata" type="Newsletter_Subscription__c[]"/>
+    <aura:attribute name="selectedRows" type="Newsletter_Subscription__c[]"/>
+    <aura:attribute name="preSelection" type="Newsletter_Subscription__c[]"/>
+    <aura:attribute name="sortedBy" type="String" />
+    <aura:attribute name="sortedDirection" type="String" />
+    
+    <aura:attribute name="additionalcolumns" type="List"/>
+    
+    <aura:attribute name="singleSelection" type="String" />
+    <aura:attribute name="refreshDataTable" type="Boolean" default="true" access="public"/>
+    <aura:attribute name="refreshId" type="String" access="public"/>
+    
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    <aura:handler name="rowAction" event="c:datatableFSC_rowAction" action="{!c.handleRowAction}"/>
+    
+    <c:datatableFSC aura:id="datatableFSC"
+                    mydata="{! v.mydata }" 
+                    selectedRows="{! v.selectedRows }"
+                    preSelection="{! v.selectedRows }"
+                    keyField="Id"
+                    sortedBy="{! v.sortedBy }"
+                    sortedDirection="{! v.sortedDirection }"
+                    singleSelection="{! v.singleSelection }"
+                    hideCheckboxColumn="true"
+                    
+                    column01_fieldName="Newsletter_Title__c"
+                    column01_label="Newsletter"
+                    column01_type="text"
+                    column02_fieldName="Status__c"
+                    column02_label="Status"
+                    column02_type="text"
+                    />    
+</aura:component>

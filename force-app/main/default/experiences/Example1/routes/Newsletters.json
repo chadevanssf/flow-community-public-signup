@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "newsletters",
+  "appPageId" : "c183b97d-e6db-4340-a8cf-9f554a0c08e1",
+  "routeType" : "custom-newsletters",
+  "pageAccess" : "Public",
+  "label" : "Newsletters",
+  "id" : "47ff2abc-d9d5-4b44-97b9-6097872565de",
+  "type" : "route"
+}
